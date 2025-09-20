@@ -43,7 +43,7 @@ It is a **Generative AI-powered mental wellness assistant** designed for youth, 
 ---
 
 <pre>
-  Youth-Mental-Wellness-AI/
+moodmate-ai/
 │
 ├── frontend/
 │ ├── index.html
