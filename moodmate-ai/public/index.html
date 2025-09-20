@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindMate ✨</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="header-content">
+                <div class="logo">MindMate ✨</div>
+                <div class="mood-tracker">
+                    <p class="mood-prompt">How are you feeling today?</p>
+                    <div class="mood-buttons">
+                        <button class="mood-btn" data-mood="Happy">😊</button>
+                        <button class="mood-btn" data-mood="Sad">😔</button>
+                        <button class="mood-btn" data-mood="Stressed">😩</button>
+                        <button class="mood-btn" data-mood="Calm">😌</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="chat-main">
+            <div id="chat-box" class="chat-box">
+                <div class="message ai-msg">
+                    <p>Hi there! I'm MindMate, your personal companion. You can tell me about your day or how you're feeling. I'm here to listen.</p>
+                </div>
+            </div>
+        </main>
+
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button id="send-btn" class="send-btn">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+
+        <div class="disclaimer">
+            <p>⚠️ This is for self-reflection and creative purposes only and is not a substitute for professional mental health support. If you are in crisis, please seek professional help immediately.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
