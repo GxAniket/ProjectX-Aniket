@@ -13,21 +13,28 @@
 <body>
     <div class="app-container">
         <header class="app-header">
-            <div class="header-content">
-                <div class="logo">MindMate ✨</div>
-                <div class="mood-tracker">
-                    <p class="mood-prompt">How are you feeling today?</p>
-                    <div class="mood-buttons">
-                        <button class="mood-btn" data-mood="Happy">😊</button>
-                        <button class="mood-btn" data-mood="Sad">😔</button>
-                        <button class="mood-btn" data-mood="Stressed">😩</button>
-                        <button class="mood-btn" data-mood="Calm">😌</button>
-                    </div>
-                </div>
-            </div>
+            <h1 class="logo">MindMate ✨</h1>
         </header>
 
         <main class="chat-main">
+            <section class="mood-tracker-card">
+                <p class="mood-prompt">Hello, how are you feeling today?</p>
+                <div class="mood-buttons">
+                    <button class="mood-btn" data-mood="Happy" aria-label="Feeling Happy">
+                        <span role="img" aria-label="Happy face">😊</span>
+                    </button>
+                    <button class="mood-btn" data-mood="Sad" aria-label="Feeling Sad">
+                        <span role="img" aria-label="Sad face">😔</span>
+                    </button>
+                    <button class="mood-btn" data-mood="Stressed" aria-label="Feeling Stressed">
+                        <span role="img" aria-label="Stressed face">😩</span>
+                    </button>
+                    <button class="mood-btn" data-mood="Calm" aria-label="Feeling Calm">
+                        <span role="img" aria-label="Calm face">😌</span>
+                    </button>
+                </div>
+            </section>
+            
             <div id="chat-box" class="chat-box">
                 <div class="message ai-msg">
                     <p>Hi there! I'm MindMate, your personal companion. You can tell me about your day or how you're feeling. I'm here to listen.</p>
@@ -35,18 +42,18 @@
             </div>
         </main>
 
-        <div class="input-area">
-            <input type="text" id="user-input" placeholder="Type your message...">
-            <button id="send-btn" class="send-btn">
-                <i class="fas fa-paper-plane"></i>
-            </button>
-        </div>
-
-        <div class="disclaimer">
-            <p>⚠️ This is for self-reflection and creative purposes only and is not a substitute for professional mental health support. If you are in crisis, please seek professional help immediately.</p>
-        </div>
+        <footer class="app-footer">
+            <div class="input-area">
+                <input type="text" id="user-input" placeholder="Type your message...">
+                <button id="send-btn" class="send-btn" aria-label="Send message">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+            <div class="disclaimer">
+                <p>⚠️ This is for self-reflection and creative purposes only and is not a substitute for professional mental health support. If you are in crisis, please seek professional help immediately.</p>
+            </div>
+        </footer>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
