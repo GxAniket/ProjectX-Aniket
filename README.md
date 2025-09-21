@@ -26,7 +26,7 @@ It is a **Generative AI-powered mental wellness assistant** designed for youth, 
 |------|------|-------|
 | **Aniket Sundriyal** | Leader | sundriyalaniket@gmail.com |
 | Priyanshu Riyal | Developer | priyanshuriyal961@gmail.com |
-| Rana Animesh | Developer | animeshrana91@gmail.com |
+| Animesh Rana | Developer | animeshrana91@gmail.com |
 | Aung Ko Myo | Developer | myoa4800@gmail.com |
 | Yashasvi Parihar | Developer | yashasviparihar1239@gmail.com |
 
