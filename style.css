@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #4C5272; /* Deep Slate Blue */
+    --primary-color: #30c34b; /* Deep Slate Blue */
     --secondary-color: #E6E8F2; /* Soft Lavender Gray */
     --background-color: #F8F9FA; /* Off-White */
     --user-bubble: #6A74A3; /* Muted Blue-Purple */
@@ -187,7 +187,7 @@ body {
     justify-content: center;
     cursor: pointer;
     transition: background-color 0.2s, transform 0.2s;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(188, 17, 17, 0.1);
 }
 
 .send-btn:hover {
