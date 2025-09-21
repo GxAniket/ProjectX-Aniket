@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "hello": "Hi there! What's on your mind today? 😊",
         "good morning": "Good morning ☀️! Wishing you a day full of positivity.",
         "good night": "Good night 🌙. Sleep well and recharge!",
+        "good": "Goodbye! Take care and come back anytime. ✨",
         "good afternoon": "Good afternoon 🌞. How’s your day going so far?",
         "good evening": "Good evening 🌆. Hope you had a nice day!",
         "hi": "Hey! It's great to hear from you.",
@@ -167,7 +168,27 @@ document.addEventListener('DOMContentLoaded', () => {
         "what is peace": "Peace is presence. It’s the quiet between thoughts 🧘.",
         "what is joy": "Joy is the spark that reminds you you’re alive 🔥.",
         "what is sadness": "Sadness is love that’s missing something 💧.",
-        "default": "I'm not sure how to respond to that yet 🤔, but I'm here to listen if you want to share more."
+        "default": "I'm not sure how to respond to that yet 🤔, but I'm here to listen if you want to share more.",
+        "chutiya": "Arre bhai, smartness ka software update miss ho gaya kya? 🤣",
+        "mc": "MC = Mission Completed samjha tha main 😅",
+        "bc": "BC = Battery Charging hoti hai mere phone me 📱⚡",
+        "bhosdike": "Oye dictionary bhi sharma gayi teri creativity dekh ke 😜",
+        "madarchod": "Bhai, maa ka naam lete hi respect karna chahiye 🙏",
+        "gandu": "Arre bhai, password reset karne se life bhi reset hoti kya? 😂",
+        "launde": "Beta thoda shaant ho ja, garmi kam kar le 🔥",
+        "chakka": "Arre bhai, Google Maps bhi tera direction nahi dhoond pa raha 😅",
+        "harami": "Bhai tu coding ki bug jaise irritate kar raha hai 🤣",
+        "kutte": "Arre loyalty seekh le inse, insult karke bhi cute hi lagte hain 🐶",
+        "ullu": "Ullu ka pattha matlab night-owl? Study kar le bhai 📚🦉",
+        "nalayak": "Arre bhai, system error aaya hai tumhare brain me 😜",
+        "bevda": "Daroo chhod, thoda paani pi le 🚰😂",
+        "chor": "Bhai password chura le, par vibes mat chura 😎",
+        "bhadwe": "Arre bhai, positivity ka free trial le le ek mahine ka 😅",
+        "tatti": "Arey wah, potty-talk band kar aur coding shuru kar 💩➡️💻",
+        "bandar": "Banana khayega kya? 🍌🙈",
+        "pagal": "Pagal? Arre genius aur pagal ka difference sirf degree ka hota hai 🎓🤣",
+        "bewakoof": "Bewakoof tu nahi, tera WiFi lagta hai disconnect ho gaya 🤔",
+        "faltu": "Faltu mat bol, main toh limited edition hoon 😎✨"
     };
 
     // Chatbot Logic
