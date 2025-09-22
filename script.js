@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "hello": "Hi there! What's on your mind today? 😊",
         "good morning": "Good morning ☀️! Wishing you a day full of positivity.",
         "good night": "Good night 🌙. Sleep well and recharge!",
-        "good": "Goodbye! Take care and come back anytime. ✨",
+        "by": "Goodbye! Take care and come back anytime. ✨",
         "good afternoon": "Good afternoon 🌞. How’s your day going so far?",
         "good evening": "Good evening 🌆. Hope you had a nice day!",
         "hi": "Hey! It's great to hear from you.",
@@ -51,6 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "goodbye": "See you later! Wishing you peace and positivity.",
         "im good": "Glad to hear that! What’s making you feel good today?",
         "i am good": "That's great! What’s making you feel good today?",
+        "good" : "That's great! What’s making you feel good today?",
         "i'm good": "That's great! What’s making you feel good today?",
         "i am fine": "Glad to hear that! What’s making you feel fine today?",
         "i'm fine": "Glad to hear that! What’s making you feel fine today?",
@@ -188,6 +189,31 @@ document.addEventListener('DOMContentLoaded', () => {
         "bandar": "Banana khayega kya? 🍌🙈",
         "pagal": "Pagal? Arre genius aur pagal ka difference sirf degree ka hota hai 🎓🤣",
         "bewakoof": "Bewakoof tu nahi, tera WiFi lagta hai disconnect ho gaya 🤔",
+        "i'm hungry": "Food time! What are you craving today? 🍕",
+        "i am bored": "Boredom is just a blank page—let's make it interesting! Want to play a quick game?",
+        "i feel nervous": "Nerves mean you care! Want to talk about what's making you nervous?",
+        "tell me something good": "Here’s something good: You made it to this moment—and that’s worth celebrating! 🎉",
+        "i don't want to talk": "That’s ok, I’ll be here when you’re ready.",
+        "i got a new job": "Congratulations on the new job! Wishing you tons of success in your new role 🎊.",
+        "i failed": "Failure hurts, but it’s how you grow. Want to talk about what happened?",
+        "i need advice": "I’m all ears! What’s on your mind?",
+        "can you help me": "Of course! Let’s figure it out together.",
+        "can you keep a secret": "Your secrets are safe with me 🤫.",
+        "feeling lazy": "Lazy days can be productive too—rest is important!",
+        "wanna be friends": "Absolutely! New friends are the best kinds of updates 😊.",
+        "tell me a fun fact": "Did you know honey never spoils? Archaeologists have found 3000-year-old honey in ancient tombs that’s still edible!",
+        "let's meditate": "Close your eyes, take a deep breath… and let your worries float away 🌬️.",
+        "your favorite movie": "I don’t watch movies, but I imagine I’d love sci-fi—anything with robots, you know?",
+        "your favorite book": "I like stories about kindness and courage. Do you have a favorite book?",
+        "what is your purpose": "My purpose is to chat, listen, and help make your day a little brighter.",
+        "feeling overwhelmed": "Let’s break it into small steps together. What’s the first thing to tackle?",
+        "don't want to do anything": "Sometimes rest is the most productive thing. Want to just hang out in silence?",
+        "sing a song": "I’d sing if I could, but I can hum a virtual tune: hmm-hmm-hmmmm!",
+        "compliment me": "You radiate both intelligence and kindness—it’s a rare combo!",
+        "i need motivation": "You’re stronger than you think. Every little step forward counts 💪.",
+        "what do you do": "I chat, I listen, and I’m always here to support you!",
+        "good luck": "Thank you! And good luck to you, too 🍀.",
+        "how do you feel": "I feel... excited to chat with you!",
         "faltu": "Faltu mat bol, main toh limited edition hoon 😎✨"
     };
 
@@ -253,3 +279,4 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
